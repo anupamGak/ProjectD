@@ -3,41 +3,30 @@
 
 <head>
 <title>Project-D</title>
-<style>
-#top
-{
-  border:1px solid black;
-  height:100px;
-  width:900px;
-  background-color:blue;
-  margin-left:200px;
-}
-
-#side
-{
-  border:1px solid black;
-  width:200px;
-  background-color:blue;
-  margin:0px;
-}  
-
-#center
-{
-  border:1px solid black;
-  height:1000px;
-  width:900px;
-  background-color:cyan;
-  margin-left:200px;
-  margin-top:100px;
-}  
-</style>  
-
+<link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 
 <body>
-<div id="top"></div>
-<div id="side"></div>
-<div id="center"></div>
+<div id="container">
+  <div id="header">
+    <span id="logo">Library</span>
+  </div>
+  
+  <div id="side">
+    <ul>
+	  <li>Browse</li>
+	  <li>Add Book</li>
+	  <li>Return Book</li>
+	</ul>  
+  </div>
+
+  <div id="content">
+    Content<br>
+	Line2
+  </div>
+
+    
+
 </body>
 
 </html>
