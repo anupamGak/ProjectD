@@ -1,6 +1,6 @@
   body
    {
-    background:url(body.jpg);
+    background:url('body.jpg');
   }
   @font-face
   {
@@ -22,8 +22,8 @@
   #header
   {
     background-color:#FFA500;
-
-	border-radius:10px;	
+	border-radius:10px;
+	padding:5px;
   }
   ul
   {
@@ -35,19 +35,32 @@
 	float:left;
 	width:150px;
 	height:650px;
-	border-radius:10px;	
+	border-radius:10px;
+	padding-top:5px;
+	padding-bottom:5px;
   }
   #content
   {
     background-color:#EEEEEE;
     height:650px;
-	width:700px;
+	width:690px;
 	border-radius:10px;
 	float:left;
+	padding:5px;
   }
     #footer
    {
     background-color:#FFA500;
-
 	border-radius:10px;
+	clear:both;
+  }
+  .menu
+   {
+    background-image:url('menu.jpg');
+	background-size:150px 30px;
+	width:150px;
+	height:30px;
+	color:white;
+	border-radius:10px;
+	padding-left:7px;
   }	
