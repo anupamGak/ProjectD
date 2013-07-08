@@ -1,7 +1,7 @@
   body
    {
     background:url(body.jpg);
-  }	
+  }
   @font-face
   {
     font-family:mostwanted;
@@ -9,7 +9,7 @@
   }	
   #container
   {
-	width:800px;
+	width:850px;
 	margin:0px auto;
 	box-shadow:7px 7px 3px;
 	border-radius:10px;
@@ -22,7 +22,7 @@
   #header
   {
     background-color:#FFA500;
-    padding:5px;
+
 	border-radius:10px;	
   }
   ul
@@ -33,15 +33,21 @@
   {
     background-color:#FFD700;
 	float:left;
-	width:125px;
-	height:600px;
+	width:150px;
+	height:650px;
 	border-radius:10px;	
   }
   #content
   {
     background-color:#EEEEEE;
     height:650px;
-	width:675px;
+	width:700px;
+	border-radius:10px;
 	float:left;
-	border-radius:10px;	
   }
+    #footer
+   {
+    background-color:#FFA500;
+
+	border-radius:10px;
+  }	
