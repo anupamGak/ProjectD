@@ -12,7 +12,6 @@
 	width:850px;
 	margin:0px auto;
 	box-shadow:7px 7px 3px;
-	border-radius:10px;
   }
   #logo
   {
@@ -22,8 +21,9 @@
   #header
   {
     background-color:#FFA500;
-	border-radius:10px;
 	padding:5px;
+	background-image:url('header.jpg');
+	background-size:850px 200px;
   }
   ul
   {
@@ -35,7 +35,6 @@
 	float:left;
 	width:150px;
 	height:650px;
-	border-radius:10px;
 	padding-top:5px;
 	padding-bottom:5px;
   }
@@ -44,14 +43,12 @@
     background-color:#EEEEEE;
     height:650px;
 	width:690px;
-	border-radius:10px;
 	float:left;
 	padding:5px;
   }
     #footer
    {
     background-color:#FFA500;
-	border-radius:10px;
 	clear:both;
   }
   .menu
