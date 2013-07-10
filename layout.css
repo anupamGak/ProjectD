@@ -10,7 +10,9 @@
   #container
   {
 	width:850px;
-	margin:0px auto;
+	margin-top:-45px;
+	margin-left:auto;
+	margin-right:auto;
 	box-shadow:7px 7px 3px;
   }
   #logo
@@ -21,7 +23,8 @@
   #header
   {
     background-color:#FFA500;
-	padding:5px;
+	height:150px;
+	padding-left:75px;
 	background-image:url('header.jpg');
 	background-size:850px 200px;
   }
@@ -31,33 +34,62 @@
   }	
   #side
   {
-    background-color:#FFD700;
+    background-image:url('/ProjectD/side.jpg');
+	background-size:400px 590px;
+	margin-top:-40px;
+	border:2px solid black;
+	border-radius:12px;
 	float:left;
-	width:150px;
+	width:175px;
 	height:650px;
-	padding-top:5px;
+	padding-top:50px;
 	padding-bottom:5px;
   }
   #content
   {
     background-color:#EEEEEE;
     height:650px;
-	width:690px;
+	width:661px;
 	float:left;
 	padding:5px;
   }
-    #footer
+  #footer
    {
     background-color:#FFA500;
 	clear:both;
   }
-  .menu
+  #side a
    {
     background-image:url('menu.jpg');
-	background-size:150px 30px;
-	width:150px;
+	background-size:160px 30px;
+	width:155px;
 	height:30px;
 	color:white;
 	border-radius:10px;
-	padding-left:7px;
+	display:block;
+	text-decoration:none;
+	padding-top:3px;
+	font-family:"Comic Sans MS";
+	padding-left:20px;
+  }
+  #side a:hover
+   {
+    background-image:url('menu2.jpg');
+	color:black;
+	font-size:17px;
   }	
+  img
+   {
+    width:125px;
+	height:190px;
+  }
+  .author
+    {
+	color:gray;
+	font-size:13px;
+  }
+  td
+   {
+    padding:15px;
+  }	
+   
