@@ -41,14 +41,14 @@
 	border-radius:12px;
 	float:left;
 	width:175px;
-	height:650px;
+	height:800px;
 	padding-top:50px;
 	padding-bottom:5px;
   }
   #content
   {
     background-color:#EEEEEE;
-    height:650px;
+    height:900px;
 	width:661px;
 	float:left;
 	padding:5px;
@@ -77,9 +77,14 @@
     background-image:url('menu2.jpg');
 	color:black;
 	font-size:17px;
-  }	
+  }
+  table
+    {
+	margin-left:auto;
+	margin-right:auto;
+  }
   img
-   {
+  {
     width:125px;
 	height:190px;
   }

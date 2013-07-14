@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Library-Add Book</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<script>
+	function addtype()
+	{
+	    if(document.getElementById("chy").checked)
+        {
+	        document.getElementById("chcode").style.visibility="visible";
+		    document.getElementById("remform").style.visibility="hidden";
+		    
+	    }
+	   else if(document.getElementById("chn").checked)
+	    {
+	        document.getElementById("chcode").style.visibility="hidden";
+		    document.getElementById("remform").style.visibility="visible";
+	    }
+    }
+</script>
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    <h1 id="logo">Library</h1>
+  </div>
+  
+  <div id="side">
+    <a href="/ProjectD/library.html">Browse</a>
+	<a href="/ProjectD/add.html">Add Book</a>
+	<a href="http://www.youtube.com" target="_blank">Return Book</a>
+  </div>
+
+  <div id="content">
+    <h2>Add Book</h2>
+    <form name="addbook" action="/ProjectD/addbook.php" method="POST">
+	Already existing title?
+    <input type=radio name="ch" value="y" id="chy" onchange="addtype()"> Yes
+	<input type=radio name="ch" value="n" id="chn" onchange="addtype()"> No<br><br>
+	<table id="chcode" style="visibility:hidden">
+		<tr>
+			<td>Title Code:</td>
+			<td>
+				<input type="text" name="code" maxlength=3 size=3>
+			</td>
+		</tr>
+		<tr>
+			<td>Quantity</td>
+			<td>
+				<input type=number name="qty">
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2>
+			    <input type=submit value="Add">
+			</td>
+		</tr>
+	</table>
+	<table id="remform" style="visibility:hidden">
+	    <tr>
+		    <td>Book Title:</td>
+			<td>
+			    <input type=text name="title">
+			</td>
+		</tr>
+		<tr>
+		    <td>Book Author:</td>
+			<td>
+			    <input type=text name="author">
+			</td>
+		</tr>
+		<tr>
+		    <td>Assign Code:</td>
+			<td>
+			    <input type=number name="acode" maxlength=3 size=3>
+			</td>
+		</tr>
+		<tr>
+		    <td>
+			    Quantity:
+			</td>
+			<td>
+			    <input type=number name="qty" size=1>
+			</td>
+		</tr>
+		<tr>
+		    <td colspan=2 align=center>
+			    <input type=submit value="Add">
+			</td>
+		</tr>
+	</table>
+	</form>
+  </div>
+  <div id="footer">
+  Copyright</div>
+
+ </div>   
+
+</body>
+
+</html>
