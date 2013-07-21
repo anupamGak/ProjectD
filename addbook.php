@@ -33,7 +33,7 @@
 		for($i=0;$title[$i];$i++)
 		{
 		    $l=strlen($title);
-		    if($title[$i]=="'" || $title[$i]=='"')
+		    if($title[$i]=="'" || $title[$i]=='"' || $title[$i]=="\\")
 			{
 			    for($j=$l;$j>=$i;$j--)
 				{
@@ -66,6 +66,8 @@
 		else
         {   echo "Success!!";  }
 		mysqli_query($con,$sql);
+		echo "<h1>Book Successfully Added</h1>";
+		mysqli_close($con);
 	?>
   </div>
   <div id="footer">
